@@ -1,0 +1,154 @@
+/* CSS */
+body {
+    font-family: sans-serif;
+    background: #eee;
+}
+
+h2 {
+    background-color:rgb(122, 153, 211);
+    color:#000;
+
+}
+.contenedor {
+    margin: 0 auto;
+    background:mintcream;
+    padding: 20px;
+    box-shadow: 1 1 5px #ccc;
+}
+
+.encabezado h1 {
+    margin:0px;
+    padding: 30px;
+    text-align: left;
+    font-size: 50px;
+    font-size:italic;
+    background-color:rgb(122, 153, 211);
+    color:#000;
+    }
+
+.encabezado h2 {
+    margin:0px;
+    padding: 10px;
+    font-size: 25px;
+    text-align:center;
+    font-size:italic;
+    background-color:rgb(20, 42, 82);
+    color:#5198a5;
+}
+    
+.encabezado p {
+    margin margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-align:left;
+    font-size:italic;
+    background-color:rgb(20, 42, 82);
+    color:#5198a5;
+}
+
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    float: left;
+    margin-right: 10px;
+}
+
+/* recuedros de opciones */
+.menu ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 15px;
+    background: rgb(20,42,82);
+    border-radius: 5px;
+    color: #5198a5;
+}
+
+.menu ul li a:hover {
+    background: #5dd699;
+}
+
+.principal {
+    padding: 20px 0;
+    min-height: 500px;
+}
+
+#datos-personales .datos-personales {
+    display: flex;
+}
+
+#datos-personales .datos-personales .avatar {
+    flex: 1;
+    text-align: center;
+}
+
+#datos-personales .datos-personales .avatar img {
+    position: absolute;
+    width: 200px; heigth: 200px;
+    top: 30px;
+    right: 70px;
+    border-radius: 50%;
+}
+
+#datos-personales .datos-personales .info-personal {
+    flex: 2;
+}
+
+#datos-personales .datos-personales .info-personal ul li {
+    margin-bottom: 10px;  <!-- interlineado -->
+}
+
+#datos-personales .datos-personales .info-personal ul li span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+#formacion ul, #experiencia-laboral ul, #habilidades ul, #idiomas ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+#formacion ul li span, #experiencia-laboral ul li span, #habilidades ul li, #idiomas ul li {
+    font-weight:bold;
+    font-size:medium;
+    display:inline-block;
+    line-height:30px;
+    width: 33%;
+    text-align: center;
+}
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+}
+
+.facebook-icon,
+.whatsapp-icon,
+.instagram-icon,
+.linkedin-icon,
+.gmail-icon {
+    transition: 0.2s;
+    border-radius: 50%;
+}
+
+.facebook-icon:hover,
+.whatsapp-icon:hover,
+.instagram-icon:hover,
+.linkedin-icon:hover,
+.gmail-icon:hover {
+    transform: scale(1.3);
+}
